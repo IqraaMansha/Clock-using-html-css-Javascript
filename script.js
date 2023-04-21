@@ -18,5 +18,6 @@ function getSecondsToday() {
     let today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
 
     let diff = now - today;
+    
     return Math.round(diff / 1000);
 }
