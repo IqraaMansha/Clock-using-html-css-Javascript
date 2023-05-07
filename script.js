@@ -8,7 +8,8 @@ setTime(60 * seconds, "second");
 setTime(3600 * minutes, "minute");
 setTime(43200 * hours, "hour");
 
-function setTime(left, hand) {
+function setTime(left, hand)
+{
     $(".clock__" + hand).css("animation-delay", "" + left * -1 + "s");
 }
 
