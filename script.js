@@ -2,6 +2,7 @@ var currentSec = getSecondsToday();
 
 var seconds = (currentSec / 60) % 1;
 
+
 var minutes = (currentSec / 3600) % 1;
 var hours = (currentSec / 43200) % 1;
 
